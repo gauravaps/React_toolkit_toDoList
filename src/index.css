@@ -1,0 +1,158 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+  /* Todo App Container */
+  .todo-app {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+  }
+  
+  /* Header Styling */
+  .todo-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .todo-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  /* Form Styling */
+  .todo-form-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .todo-form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .todo-add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-add-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Todo List Styling */
+  .todo-list-container {
+    margin-top: 1.5rem;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Todo List Items */
+.todo-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between text and buttons */
+    align-items: center; /* Align items vertically */
+    padding: 0.75rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Todo Content */
+  .todo-content {
+    flex: 1; /* Make the text section flexible */
+    display: flex;
+    align-items: center; /* Vertically align text */
+  }
+  
+  /* Todo Text */
+  .todo-text {
+    word-break: break-word; /* Ensure long words wrap to the next line */
+    flex: 1; /* Allow text to take up available space */
+    font-size: 1rem;
+  }
+  
+  /* Buttons Section */
+  .todo-buttons {
+    display: flex;
+    gap: 0.5rem; /* Space between buttons */
+  }
+  
+  .todo-edit-button,
+  .todo-remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-edit-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .todo-remove-button {
+    background-color: #f44336;
+  }
+  
+  .todo-remove-button:hover {
+    background-color: #c62828;
+  }
+
+/* Edit Input and Save Button */
+.todo-edit-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .todo-edit-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+
+.todo-save-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-save-button:hover {
+    background-color: #1976d2;
+  }
+  
